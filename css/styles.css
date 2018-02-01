@@ -1,0 +1,23 @@
+body{
+    background-image: url('../img/woman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    background-position: top -300px;
+}
+label{
+    color:white;
+}
+#message{
+    color: red;
+}
+@media only screen and (max-width: 524px) {   
+    body{
+        background-image: url('../img/woman_medium.jpg');
+    }
+}
+@media only screen and (max-width: 324px) {   
+    body{
+        background-image: url('../img/woman_small.jpg');
+    }
+}
